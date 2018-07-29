@@ -1,5 +1,7 @@
 # Range
 
+## General
+
 - arithmetic progression of ints
 - called by `range()` constructor
     - `range(int)` gives us a sequence from `0 to int - 1`

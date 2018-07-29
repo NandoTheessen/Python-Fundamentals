@@ -1,5 +1,7 @@
 # Strings 
 
+## General
+
 - homogeneous immutable sequence of unicode characters
 - while the `+` operator can be used to concat strings, we should be using the `join()` method 
     - as it is way more efficient & the + way will lead to a big amount of temporates and thus
@@ -11,6 +13,8 @@ origin, _, destination = "Seattle-Boston".partition('-')
 ```
 - Here we'll have `origin = "Seattle"` & `destination = "Boston"`
 - because it is widely adopted, not using the `_` variable won't throw an error / lint warning
+
+## Formatting
 
 - `.format(args)` can be used to insert values into strings, it will replace fields delimited by `{}`
     - Integer field names will be matched with positional arguments in format
@@ -28,6 +32,3 @@ import math
 "Math constants: pi={m.pi:.3f}, e={m.e:.3f}".format(m=math)
 ```
 - in this case the `:.3f` is used to limit the decimals of our constants, this is part of the replacement field "mini language"
-
-
- 
