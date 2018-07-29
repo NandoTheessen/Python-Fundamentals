@@ -1,8 +1,8 @@
 # Intro to collections:
 
-- Strings
-- Lists
-- Dicts
-- Tuples
-- Range
-- Set
+#### Strings
+#### Lists
+#### Dicts
+#### Tuples
+#### Range
+#### Set
