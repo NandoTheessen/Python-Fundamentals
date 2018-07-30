@@ -1,13 +1,13 @@
 # Summary
 
 ## Tuples:
-- immutable sequence types
+- immutable sequence type
     - literal syntax: optional parens around a comma seperated list
     - Single element tuples must use a trailing comma
     - `Tuple unpacking` is very useful! (for `idiomatic swaps` as well as return values)
 
 ## Strings
-- immutable sequence types of Unicode characters
+- immutable sequence type of Unicode characters
     - String concatenation is most efficiently performed w/ `join()` on an empty seperator
     - the `partition()` method is a useful and elegant str parsing tool 
     - the `format()` method provides a powerful way of injecting values into strings
@@ -19,7 +19,7 @@
 
 ## Lists
 - heterogeneous mutable seq types
-    - netive indices work backwards from the end
+    - negative indices work backwards from the end
     - Slicing allows us to copy all or part of a list 
     - full slice (`[:]`) is a common idiom for copying lists, although the constructor & / the `copy()`
         method give better readability
